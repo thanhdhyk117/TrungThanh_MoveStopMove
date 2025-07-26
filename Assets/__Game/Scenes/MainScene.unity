@@ -747,7 +747,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 233998f1951d395498b20a5be8123c66, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -967,6 +967,9 @@ MonoBehaviour:
   speed: 5
   variableJoystick: {fileID: 1587979297}
   skin: {fileID: 10168698}
+  timeToDelay: 1
+  threshold: 0.3
+  isTestTarget: 1
 --- !u!54 &996422878
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2088,6 +2091,9 @@ MonoBehaviour:
   speed: 5
   variableJoystick: {fileID: 1587979297}
   skin: {fileID: 926860215}
+  timeToDelay: 1
+  threshold: 0.3
+  isTestTarget: 0
 --- !u!4 &1449063006
 Transform:
   m_ObjectHideFlags: 0
@@ -2908,6 +2914,9 @@ MonoBehaviour:
   speed: 5
   variableJoystick: {fileID: 1587979297}
   skin: {fileID: 631195591}
+  timeToDelay: 1
+  threshold: 0.3
+  isTestTarget: 0
 --- !u!4 &1563192320
 Transform:
   m_ObjectHideFlags: 0

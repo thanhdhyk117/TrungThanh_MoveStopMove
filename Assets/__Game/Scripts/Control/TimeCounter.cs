@@ -1,14 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using System;
+using UnityEngine;
 
 public class TimeCounter : MonoBehaviour
 {
     private float remainingTime;
     private Action onTimeEnd;
     private bool isRunning;
-    
+
     public bool IsRunning => isRunning;
 
     public void Run(Action action, float delay)
@@ -29,17 +27,15 @@ public class TimeCounter : MonoBehaviour
     public void Excute(float deltaTime)
     {
         if (!isRunning) return;
-        
+
         remainingTime -= deltaTime;
         if (remainingTime <= 0)
         {
             isRunning = false;
             onTimeEnd?.Invoke();
         }
-        
     }
 }
-
 
 public enum EPlayerState
 {

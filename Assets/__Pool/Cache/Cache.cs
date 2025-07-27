@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class Cache
@@ -12,7 +11,7 @@ public class Cache
         {
             _characters.Add(collider, collider.GetComponent<Character>());
         }
-        
+
         return _characters[collider];
     }
 }

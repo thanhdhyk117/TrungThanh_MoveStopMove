@@ -8,7 +8,7 @@ public class Player : Character
     [SerializeField] private Transform skin;
 
     [Header("Time - Control Attack")]
-    private TimeCounter _timeCounter;
+    private TimeCounter _timeTimeCounter;
 
     [SerializeField] private float timeToDelay = 1.0f; // Delay before attack
     [SerializeField] private float attackCooldown = 1.5f; // Cooldown period after attack
@@ -19,7 +19,7 @@ public class Player : Character
 
     private void Start()
     {
-        _timeCounter = new TimeCounter();
+        _timeTimeCounter = new TimeCounter();
     }
 
     private void Update()
@@ -60,24 +60,24 @@ public class Player : Character
         bool isMoving = joystickValue > threshold;
         if (isMoving)
         {
-            _timeCounter.Stop();
+            _timeTimeCounter.Stop();
             SetState(EPlayerState.Moving);
         }
         else
         {
-            if (!_timeCounter.IsRunning && !isAttacking)
+            if (!_timeTimeCounter.IsRunning && !isAttacking)
             {
                 SetState(EPlayerState.Idle);
             }
         }
 
         // Prepare attack when target is set and not moving
-        if (currentTarget != null && !isMoving && !_timeCounter.IsRunning && CanAttack())
+        if (currentTarget != null && !isMoving && !_timeTimeCounter.IsRunning && CanAttack())
         {
-            _timeCounter.Run(Attack, timeToDelay);
+            _timeTimeCounter.Run(Attack, timeToDelay);
         }
 
-        _timeCounter.Excute(Time.deltaTime);
+        _timeTimeCounter.Excute(Time.deltaTime);
     }
 
     private bool CanAttack()

@@ -22,3 +22,10 @@ public enum ETargetType
     Nearest = 1,
     Farthest = 2
 }
+
+// public enum PoolType
+// {
+//     None = 0,
+//     Character = 1,
+//     Bot, 
+// }

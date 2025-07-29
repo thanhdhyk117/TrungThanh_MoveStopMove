@@ -13,6 +13,8 @@ public abstract class GameUnit : MonoBehaviour
             return _transform;
         }
     }
+    
+    public PoolType poolType;
 
     public abstract void OnInit();
     public abstract void OnDespawn();

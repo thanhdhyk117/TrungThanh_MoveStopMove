@@ -1,16 +1,19 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Character : GameUnit
 {
     [SerializeField] protected Animator animator;
-    private string currentAnimTrigger = "";
+    private string _currentAnimTrigger = "";
 
     [SerializeField] private List<Character> listCharacterTarget;
     [SerializeField] private ETargetType targetType = ETargetType.Nearest;
     [SerializeField] protected Character currentTarget => GetTarget();
-    [SerializeField] protected HideOnPlay hideOnPlay;
+    [SerializeField] private Character _previousTarget;
+    [SerializeField] protected HideOnPlay 
+        hideOnPlay;
     private Action<Character> OnCharacterDeath;
 
     [SerializeField] protected bool isAttacking = false;
@@ -27,14 +30,13 @@ public class Character : GameUnit
 
     public void ChangeAnim(string anim)
     {
-        if (anim != currentAnimTrigger)
+        if (anim != _currentAnimTrigger)
         {
-            animator.ResetTrigger(currentAnimTrigger);
-            currentAnimTrigger = anim;
-            animator.SetTrigger(currentAnimTrigger);
+            animator.ResetTrigger(_currentAnimTrigger);
+            _currentAnimTrigger = anim;
+            animator.SetTrigger(_currentAnimTrigger);
         }
     }
-
 
     public void AddCharacterTarget(Character character)
     {
@@ -72,7 +74,14 @@ public class Character : GameUnit
             default:
                 break;
         }
-        target.hideOnPlay?.ShowHideSymnol(true);
+
+        if (target != _previousTarget)
+        {
+            _previousTarget?.hideOnPlay?.ShowHideSymnol(false);
+            target?.hideOnPlay?.ShowHideSymnol(true);
+            _previousTarget = target;
+        }
+        
         return target;
     }
 

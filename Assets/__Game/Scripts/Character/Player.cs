@@ -7,10 +7,13 @@ public class Player : Character
     [SerializeField] private VariableJoystick variableJoystick;
     [SerializeField] private Transform skin;
 
+    [SerializeField] private GameObject bulletPrefab; // Prefab for the bullet to be instantiated on attack
+    public Vector3 Direction => transform.eulerAngles;
+
     [Header("Time - Control Attack")]
     private TimeCounter _timeTimeCounter;
 
-    [SerializeField] private float timeToDelay = 1.0f; // Delay before attack
+    [SerializeField] private float timeToDelay = 1f; // Time to initialize anim "Attack"  before attack
     [SerializeField] private float attackCooldown = 1.5f; // Cooldown period after attack
     [SerializeField] private float threshold = 0.1f;
 
@@ -74,6 +77,7 @@ public class Player : Character
         // Prepare attack when target is set and not moving
         if (currentTarget != null && !isMoving && !_timeTimeCounter.IsRunning && CanAttack())
         {
+            SetState(EPlayerState.Attack);
             _timeTimeCounter.Run(Attack, timeToDelay);
         }
 
@@ -87,16 +91,13 @@ public class Player : Character
 
     private void Attack()
     {
-        SetState(EPlayerState.Attack);
         _canAttack = false; // Prevent re-attack
-        StartCoroutine(EndOfAttack());
-    }
-
-    private IEnumerator EndOfAttack()
-    {
-        yield return new WaitForSeconds(0.5f); // Attack animation duration
-        Debug.Log("End of attack");
         isAttacking = false;
+
+        //Instantiate bullet or perform attack logic here
+        Instantiate(, transform.position, Quaternion.identity);
+
+
         StartCoroutine(AttackCooldown()); // Start cooldown period
     }
 
@@ -116,16 +117,13 @@ public class Player : Character
         {
             case EPlayerState.Attack:
                 ChangeAnim(Consts.ANIM_ATTACK);
-                Debug.Log("Attack is calling");
                 isAttacking = true;
                 break;
             case EPlayerState.Idle:
                 ChangeAnim(Consts.ANIM_IDLE);
                 isAttacking = false;
-                Debug.Log("Idle is calling");
                 break;
             case EPlayerState.Moving:
-                Debug.Log("Moving is calling");
                 isAttacking = false;
                 break;
             default:

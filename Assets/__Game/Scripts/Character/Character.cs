@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Character : GameUnit
@@ -12,11 +11,15 @@ public class Character : GameUnit
     [SerializeField] private ETargetType targetType = ETargetType.Nearest;
     [SerializeField] protected Character currentTarget => GetTarget();
     [SerializeField] private Character _previousTarget;
-    [SerializeField] protected HideOnPlay 
-        hideOnPlay;
+
+    [SerializeField] private Weapon currentWeapon;
+
+    [SerializeField] protected HideOnPlay hideOnPlay;
     private Action<Character> OnCharacterDeath;
 
     [SerializeField] protected bool isAttacking = false;
+
+    [SerializeField] protected bool isDead = false;
 
     public override void OnInit()
     {
@@ -81,7 +84,7 @@ public class Character : GameUnit
             target?.hideOnPlay?.ShowHideSymnol(true);
             _previousTarget = target;
         }
-        
+
         return target;
     }
 

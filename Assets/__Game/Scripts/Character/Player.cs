@@ -93,10 +93,8 @@ public class Player : Character
     {
         _canAttack = false; // Prevent re-attack
         isAttacking = false;
-
-        //Instantiate bullet or perform attack logic here
-        Instantiate(, transform.position, Quaternion.identity);
-
+        
+         
 
         StartCoroutine(AttackCooldown()); // Start cooldown period
     }

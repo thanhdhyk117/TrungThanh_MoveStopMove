@@ -12,10 +12,11 @@ public class Character : GameUnit
     [SerializeField] protected Character currentTarget => GetTarget();
     [SerializeField] private Character _previousTarget;
 
-    [SerializeField] private Weapon currentWeapon;
+    [SerializeField] protected Weapon currentWeapon;
 
     [SerializeField] protected HideOnPlay hideOnPlay;
-    private Action<Character> OnCharacterDeath;
+
+    private Action<Character> OnCharacterTrigger;
 
     [SerializeField] protected bool isAttacking = false;
 
@@ -23,7 +24,7 @@ public class Character : GameUnit
 
     public override void OnInit()
     {
-
+        Debug.Log($"{name} initialized");
     }
 
     public override void OnDespawn()
@@ -46,7 +47,7 @@ public class Character : GameUnit
         if (listCharacterTarget.Contains(character)) return;
         listCharacterTarget.Add(character);
 
-        OnCharacterDeath += RemoveCharacter;
+        OnCharacterTrigger += RemoveCharacter;
     }
 
     public void RemoveCharacter(Character character)
@@ -54,12 +55,19 @@ public class Character : GameUnit
         if (!listCharacterTarget.Contains(character)) return;
         character.hideOnPlay?.ShowHideSymnol(false);
         listCharacterTarget.Remove(character);
-        OnCharacterDeath -= RemoveCharacter;
+        _previousTarget = null;
+        OnCharacterTrigger -= RemoveCharacter;
     }
 
     private void OnDisable()
     {
-        OnCharacterDeath?.Invoke(this);
+        OnCharacterTrigger?.Invoke(this);
+    }
+
+    public virtual void OnDead()
+    {
+        Debug.Log($"{name} is dead");
+
     }
 
     public Character GetTarget()
@@ -83,6 +91,8 @@ public class Character : GameUnit
             _previousTarget?.hideOnPlay?.ShowHideSymnol(false);
             target?.hideOnPlay?.ShowHideSymnol(true);
             _previousTarget = target;
+
+
         }
 
         return target;

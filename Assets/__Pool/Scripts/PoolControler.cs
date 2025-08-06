@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
@@ -61,17 +60,17 @@ public class PoolControlerEditor : Editor
                 {
                     Transform tf = new GameObject(pool.Pool[i].prefab.poolType.ToString()).transform;
                     tf.parent = pool.transform;
-                    pool.Pool[i].root = tf; 
+                    pool.Pool[i].root = tf;
                 }
             }
-            
+
             for (int i = 0; i < pool.Particle.Length; i++)
             {
                 if (pool.Particle[i].root == null)
                 {
                     Transform tf = new GameObject(pool.Particle[i].particleType.ToString()).transform;
                     tf.parent = pool.transform;
-                    pool.Particle[i].root = tf; 
+                    pool.Particle[i].root = tf;
                 }
             }
         }
@@ -116,7 +115,7 @@ public class PoolAmount
     public int amount;
     public bool collect;
 
-    public PoolAmount (Transform root, GameUnit prefab, int amount, bool collect)
+    public PoolAmount(Transform root, GameUnit prefab, int amount, bool collect)
     {
         this.root = root;
         this.prefab = prefab;
@@ -145,11 +144,8 @@ public enum PoolType
 {
     None,
     Bot,
-    Bullet_1,
-    Bullet_2,
-    Bullet_3,
-    Bullet_4,
-    Butlet_5
+    Weapon,
+    Bullet,
 }
 
 

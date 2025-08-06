@@ -1,24 +1,39 @@
-using System;
 using UnityEngine;
 
 public class Projectile : GameUnit
 {
-    public IProjectile iProjectile; 
+    public IProjectile projectile;
     public EMovementType movementType;
+
+    public Character triggerCharacter;
 
     private void Update()
     {
-        iProjectile.Move(this);
+        projectile.Move(this);
     }
 
     public override void OnInit()
     {
-        throw new NotImplementedException();
+
     }
 
     public override void OnDespawn()
     {
-        throw new NotImplementedException();
+        SimplePool.Despawn(this);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other == null) return;
+
+        triggerCharacter = Cache.GetCharacter(other);
+
+        if (triggerCharacter != null)
+        {
+            OnDespawn();
+            triggerCharacter.OnDead();
+            triggerCharacter = null;
+        }
     }
 }
 

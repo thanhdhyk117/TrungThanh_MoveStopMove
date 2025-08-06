@@ -7,23 +7,24 @@ public class Weapon : GameUnit
     [SerializeField] private Transform TfMuzze;
     private float speed = 5f;
 
+    [SerializeField] private Projectile currentProjectile;
 
     public void Fire()
     {
-        Projectile projectile = SimplePool.Spawn<Projectile>(projectilePrefab, TfMuzze.position, TfMuzze.rotation);
         Vector3 direction = (owner.GetTarget().TF.position - owner.TF.position).normalized;
 
-        switch (projectile.movementType)
+        currentProjectile = SimplePool.Spawn<Projectile>(projectilePrefab, TfMuzze.position, Quaternion.identity);
+        currentProjectile.TF.forward = direction;
+
+        switch (currentProjectile.movementType)
         {
             case EMovementType.Towards:
                 TowardsMovement towards = new TowardsMovement(direction, speed);
-                projectile.iProjectile = towards;
+                currentProjectile.projectile = towards;
                 break;
         }
     }
-    
-    
-    
+
     public override void OnInit()
     {
 
@@ -31,11 +32,6 @@ public class Weapon : GameUnit
 
     public override void OnDespawn()
     {
-
-    }
-
-    private void Update()
-    {
-
+        SimplePool.Despawn(currentProjectile);
     }
 }

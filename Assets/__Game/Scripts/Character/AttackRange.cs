@@ -11,7 +11,7 @@ public class AttackRange : MonoBehaviour
             var triggerCharacter = Cache.GetCharacter(other);
 
             if (triggerCharacter != owner)
-                owner.AddCharacterTarget(other.GetComponent<Character>());
+                owner.AddCharacterTarget(triggerCharacter);
         }
     }
 
@@ -21,7 +21,7 @@ public class AttackRange : MonoBehaviour
         {
             var triggerCharacter = Cache.GetCharacter(other);
             if (triggerCharacter != owner)
-                owner.RemoveCharacter(other.GetComponent<Character>());
+                owner.RemoveCharacter(triggerCharacter);
         }
     }
 

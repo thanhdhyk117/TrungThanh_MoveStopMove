@@ -58,6 +58,11 @@ public class Player : Character
         }
     }
 
+    public override void OnDead()
+    {
+
+    }
+
     private void PlayerAction(float joystickValue)
     {
         bool isMoving = joystickValue > threshold;
@@ -77,6 +82,7 @@ public class Player : Character
         // Prepare attack when target is set and not moving
         if (currentTarget != null && !isMoving && !_timeTimeCounter.IsRunning && CanAttack())
         {
+            TF.LookAt(currentTarget.TF.position);
             SetState(EPlayerState.Attack);
             _timeTimeCounter.Run(Attack, timeToDelay);
         }
@@ -93,8 +99,8 @@ public class Player : Character
     {
         _canAttack = false; // Prevent re-attack
         isAttacking = false;
-        
-         
+
+        currentWeapon.Fire(); // Fire the weapon
 
         StartCoroutine(AttackCooldown()); // Start cooldown period
     }
@@ -114,6 +120,7 @@ public class Player : Character
         switch (state)
         {
             case EPlayerState.Attack:
+
                 ChangeAnim(Consts.ANIM_ATTACK);
                 isAttacking = true;
                 break;

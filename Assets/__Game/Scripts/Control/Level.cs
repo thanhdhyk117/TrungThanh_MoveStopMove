@@ -15,7 +15,7 @@ public class Level : MonoBehaviour
 
     private void Start()
     {
-        //OnInit();
+        OnInit();
     }
 
     private void OnInit()
@@ -27,13 +27,11 @@ public class Level : MonoBehaviour
     {
         if (totalBotCount <= 0 || botPrefab == null || listPosSpawns.Count == 0)
         {
-            Debug.LogWarning("No bots to spawn or no spawn points available.");
             return;
         }
 
         if (totalBotCount < botCountInTheGround)
         {
-            Debug.LogWarning("Total bot count is less than the snumber of bots in the ground.");
             botCountInTheGround = totalBotCount;
         }
 

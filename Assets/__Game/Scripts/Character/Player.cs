@@ -1,115 +1,103 @@
-using System.Collections;
 using UnityEngine;
 
 public class Player : Character
 {
-    [SerializeField] private float speed;
+    [Header("Player Input")]
     [SerializeField] private VariableJoystick variableJoystick;
-    [SerializeField] private Transform skin;
-
-    [SerializeField] private GameObject bulletPrefab; // Prefab for the bullet to be instantiated on attack
-    public Vector3 Direction => transform.eulerAngles;
-
-    [Header("Time - Control Attack")]
-    private TimeCounter _timeTimeCounter;
-
-    [SerializeField] private float timeToDelay = 1f; // Time to initialize anim "Attack"  before attack
-    [SerializeField] private float attackCooldown = 1.5f; // Cooldown period after attack
-    [SerializeField] private float threshold = 0.1f;
 
     private EPlayerState _currentState = EPlayerState.Idle;
-    private bool _canAttack = true; // Tracks if player can attack (not in cooldown)
+    private bool _isMoving = false;
 
     private void Start()
     {
-        _timeTimeCounter = new TimeCounter();
+        OnInit();
     }
 
-    private void Update()
+    protected override void Update()
     {
-        var direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
-        if (Input.GetMouseButton(0))
-        {
-            Movement(direction);
-        }
+        if (isDead) return;
 
-        if (Input.GetMouseButtonUp(0))
-        {
-            ChangeAnim(Consts.ANIM_IDLE);
-        }
-
-        if (currentTarget != null)
-        {
-            PlayerAction(direction.magnitude);
-        }
+        HandleInput();
+        base.Update(); // Call parent's Update for combat handling
     }
 
-    private void Movement(Vector3 direction)
+    private void HandleInput()
     {
-        if (direction.magnitude > threshold)
+        Vector3 direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
+        bool hasInput = Input.GetMouseButton(0);
+        
+        if (hasInput)
         {
-            transform.Translate(direction * speed * Time.deltaTime);
-            ChangeAnim(Consts.ANIM_RUN);
-            skin.forward = direction;
+            HandleMovement(direction);
         }
         else
         {
-            ChangeAnim(Consts.ANIM_IDLE);
-        }
-    }
-
-    public override void OnDead()
-    {
-
-    }
-
-    private void PlayerAction(float joystickValue)
-    {
-        bool isMoving = joystickValue > threshold;
-        if (isMoving)
-        {
-            _timeTimeCounter.Stop();
-            SetState(EPlayerState.Moving);
-        }
-        else
-        {
-            if (!_timeTimeCounter.IsRunning && !isAttacking)
+            _isMoving = false;
+            if (_currentState == EPlayerState.Moving)
             {
                 SetState(EPlayerState.Idle);
             }
         }
 
-        // Prepare attack when target is set and not moving
-        if (currentTarget != null && !isMoving && !_timeTimeCounter.IsRunning && CanAttack())
+        // Update state based on target availability
+        if (currentTarget == null && _currentState == EPlayerState.Attack)
         {
-            TF.LookAt(currentTarget.TF.position);
-            SetState(EPlayerState.Attack);
-            _timeTimeCounter.Run(Attack, timeToDelay);
+            _timeCounter.Stop();
+            SetState(EPlayerState.Idle);
         }
-
-        _timeTimeCounter.Excute(Time.deltaTime);
     }
 
-    private bool CanAttack()
+    private void HandleMovement(Vector3 direction)
     {
-        return _canAttack && _currentState != EPlayerState.Attack && _currentState != EPlayerState.Moving;
+        if (direction.magnitude > threshold)
+        {
+            _isMoving = true;
+            Movement(direction);
+            
+            if (_currentState != EPlayerState.Moving)
+            {
+                SetState(EPlayerState.Moving);
+            }
+        }
+        else
+        {
+            _isMoving = false;
+            if (_currentState == EPlayerState.Moving)
+            {
+                SetState(EPlayerState.Idle);
+            }
+        }
     }
 
-    private void Attack()
+    protected override bool CanAttack()
     {
-        _canAttack = false; // Prevent re-attack
-        isAttacking = false;
-
-        currentWeapon.Fire(); // Fire the weapon
-
-        StartCoroutine(AttackCooldown()); // Start cooldown period
+        return base.CanAttack() && 
+               !_isMoving && 
+               _currentState != EPlayerState.Moving;
     }
 
-    private IEnumerator AttackCooldown()
+    protected override void PrepareAttack()
     {
-        yield return new WaitForSeconds(attackCooldown);
-        _canAttack = true; // Allow attacking again after cooldown
-        Debug.Log("Attack cooldown finished, can attack again");
+        if (!CanAttack()) return;
+        
+        SetState(EPlayerState.Attack);
+        base.PrepareAttack();
+    }
+
+    protected override void OnAttackComplete()
+    {
+        base.OnAttackComplete();
+        if (_currentState == EPlayerState.Attack)
+        {
+            SetState(EPlayerState.Idle);
+        }
+    }
+
+    protected override void HandleDeath()
+    {
+        base.HandleDeath();
+        _timeCounter?.Stop();
+        SetState(EPlayerState.Idle);
     }
 
     private void SetState(EPlayerState state)
@@ -117,21 +105,19 @@ public class Player : Character
         if (_currentState == state) return;
 
         _currentState = state;
+        
         switch (state)
         {
             case EPlayerState.Attack:
-
-                ChangeAnim(Consts.ANIM_ATTACK);
-                isAttacking = true;
+                // Animation handled in PrepareAttack
                 break;
+                
             case EPlayerState.Idle:
                 ChangeAnim(Consts.ANIM_IDLE);
-                isAttacking = false;
                 break;
+                
             case EPlayerState.Moving:
-                isAttacking = false;
-                break;
-            default:
+                // Animation handled in Movement
                 break;
         }
     }

@@ -3,19 +3,14 @@ using UnityEngine;
 
 public class Bot : Character
 {
-    public override void OnDead()
+    protected override void HandleDeath()
     {
-        StartCoroutine(ActionBotDeath());
+        base.HandleDeath();
+        StartCoroutine(DeathSequence(1f));
     }
-
-
-    private IEnumerator ActionBotDeath()
+    
+    protected override void HandleCombat()
     {
-        Debug.Log($"{name} is dead");
-        ChangeAnim(Consts.ANIM_DEAD);
-        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName("Dead") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1);
-
-        yield return new WaitForSeconds(1f);
-        SimplePool.Despawn(this);
+        base.HandleCombat();
     }
 }

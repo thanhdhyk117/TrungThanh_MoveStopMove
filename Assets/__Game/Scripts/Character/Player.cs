@@ -13,19 +13,11 @@ public class Player : Character
         OnInit();
     }
 
-    protected override void Update()
-    {
-        if (isDead) return;
-
-        HandleInput();
-        base.Update(); // Call parent's Update for combat handling
-    }
-
-    private void HandleInput()
+    protected override void HandleInput()
     {
         Vector3 direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
         bool hasInput = Input.GetMouseButton(0);
-        
+
         if (hasInput)
         {
             HandleMovement(direction);
@@ -49,11 +41,11 @@ public class Player : Character
 
     private void HandleMovement(Vector3 direction)
     {
-        if (direction.magnitude > threshold)
+        if (direction.magnitude >= threshold)
         {
             _isMoving = true;
             Movement(direction);
-            
+
             if (_currentState != EPlayerState.Moving)
             {
                 SetState(EPlayerState.Moving);
@@ -71,15 +63,15 @@ public class Player : Character
 
     protected override bool CanAttack()
     {
-        return base.CanAttack() && 
-               !_isMoving && 
+        return base.CanAttack() &&
+               !_isMoving &&
                _currentState != EPlayerState.Moving;
     }
 
     protected override void PrepareAttack()
     {
         if (!CanAttack()) return;
-        
+
         SetState(EPlayerState.Attack);
         base.PrepareAttack();
     }
@@ -105,19 +97,18 @@ public class Player : Character
         if (_currentState == state) return;
 
         _currentState = state;
-        
+
         switch (state)
         {
             case EPlayerState.Attack:
-                // Animation handled in PrepareAttack
                 break;
-                
+
             case EPlayerState.Idle:
                 ChangeAnim(Consts.ANIM_IDLE);
                 break;
-                
+
             case EPlayerState.Moving:
-                // Animation handled in Movement
+                ChangeAnim(Consts.ANIM_RUN);
                 break;
         }
     }

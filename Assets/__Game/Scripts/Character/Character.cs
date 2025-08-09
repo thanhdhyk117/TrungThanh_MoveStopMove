@@ -29,22 +29,23 @@ public abstract class Character : GameUnit
     private string _currentAnimTrigger = "";
     private Action<Character> OnCharacterTrigger;
     protected bool isAttacking = false;
-    protected bool isDead = false;
     protected bool _canAttack = true;
-    
+
     // Attack timing
     protected TimeCounter _timeCounter;
     protected Coroutine _attackCooldownCoroutine;
 
+    [Header("Debug")]
+    [SerializeField] private bool debugMode = false;
+
     public override void OnInit()
     {
         Debug.Log($"{name} initialized");
-        isDead = false;
         isAttacking = false;
         _canAttack = true;
         _previousTarget = null;
         _currentAnimTrigger = "";
-        
+
         if (_timeCounter == null)
             _timeCounter = new TimeCounter();
     }
@@ -55,7 +56,7 @@ public abstract class Character : GameUnit
         _previousTarget = null;
         OnCharacterTrigger = null;
         _timeCounter?.Stop();
-        
+
         if (_attackCooldownCoroutine != null)
         {
             StopCoroutine(_attackCooldownCoroutine);
@@ -63,20 +64,22 @@ public abstract class Character : GameUnit
         }
     }
 
-    protected virtual void Update()
+    protected void Update()
     {
-        if (isDead) return;
-
         HandleCombat();
         _timeCounter?.Excute(Time.deltaTime);
+        HandleInput();
+    }
+
+    protected virtual void HandleInput()
+    {
+
     }
 
     #region Animation Management
-    
+
     public void ChangeAnim(string anim)
     {
-        if (isDead) return;
-        
         if (anim != _currentAnimTrigger)
         {
             if (!string.IsNullOrEmpty(_currentAnimTrigger))
@@ -94,15 +97,14 @@ public abstract class Character : GameUnit
 
     protected virtual void Movement(Vector3 direction)
     {
-        if (isDead) return;
 
-        if (direction.magnitude > threshold)
+        if (direction.magnitude >= threshold)
         {
             transform.Translate(direction * speed * Time.deltaTime);
-            
+
             if (skin != null)
                 skin.forward = direction;
-                
+
             ChangeAnim(Consts.ANIM_RUN);
         }
         else
@@ -114,7 +116,7 @@ public abstract class Character : GameUnit
     protected void LookAtTarget(Character target)
     {
         if (target == null || skin == null) return;
-        
+
         Vector3 direction = (target.TF.position - TF.position).normalized;
         if (direction != Vector3.zero)
         {
@@ -136,23 +138,25 @@ public abstract class Character : GameUnit
 
     protected virtual bool CanAttack()
     {
-        return _canAttack && 
-               !isAttacking && 
-               !isDead && 
-               !_timeCounter.IsRunning;
+        return _canAttack &&
+               !isAttacking &&
+               !_timeCounter.IsRunning &&
+               debugMode;
     }
+
 
     protected virtual void PrepareAttack()
     {
         if (!CanAttack()) return;
-        
+
         ChangeAnim(Consts.ANIM_ATTACK);
+
         _timeCounter.Run(ExecuteAttack, timeToDelay);
     }
 
     protected virtual void ExecuteAttack()
     {
-        if (!_canAttack || currentTarget == null || isDead) return;
+        if (!_canAttack || currentTarget == null) return;
 
         _canAttack = false;
         isAttacking = true;
@@ -167,21 +171,19 @@ public abstract class Character : GameUnit
     protected virtual IEnumerator AttackCooldown()
     {
         yield return new WaitForSeconds(attackCooldown);
-        
+
         _canAttack = true;
         isAttacking = false;
         _attackCooldownCoroutine = null;
-        
+
         // Return to idle if no other actions
         OnAttackComplete();
+        currentWeapon?.ShowHideSkinWeapon(true);
     }
 
     protected virtual void OnAttackComplete()
     {
-        if (!isDead)
-        {
-            ChangeAnim(Consts.ANIM_IDLE);
-        }
+        ChangeAnim(Consts.ANIM_IDLE);
     }
 
     #endregion
@@ -190,26 +192,26 @@ public abstract class Character : GameUnit
 
     public void AddCharacterTarget(Character character)
     {
-        if (character == null || listCharacterTarget.Contains(character) || character.isDead) 
+        if (character == null || listCharacterTarget.Contains(character))
             return;
-            
+
         listCharacterTarget.Add(character);
         character.OnCharacterTrigger += RemoveCharacter;
     }
 
     public void RemoveCharacter(Character character)
     {
-        if (character == null || !listCharacterTarget.Contains(character)) 
+        if (character == null || !listCharacterTarget.Contains(character))
             return;
-            
+
         character.hideOnPlay?.ShowHideSymnol(false);
         listCharacterTarget.Remove(character);
-        
+
         if (_previousTarget == character)
         {
             _previousTarget = null;
         }
-        
+
         character.OnCharacterTrigger -= RemoveCharacter;
     }
 
@@ -218,7 +220,7 @@ public abstract class Character : GameUnit
         // Remove dead targets
         for (int i = listCharacterTarget.Count - 1; i >= 0; i--)
         {
-            if (listCharacterTarget[i] == null || listCharacterTarget[i].isDead)
+            if (listCharacterTarget[i] == null)
             {
                 listCharacterTarget.RemoveAt(i);
             }
@@ -300,17 +302,15 @@ public abstract class Character : GameUnit
 
     public virtual void OnDead()
     {
-        if (isDead) return;
-        
-        isDead = true;
         isAttacking = false;
         _canAttack = false;
         _timeCounter?.Stop();
-        
+
         Debug.Log($"{name} is dead");
         hideOnPlay?.ShowHideSymnol(false);
-        
+
         HandleDeath();
+        SimplePool.Despawn(this);
     }
 
     protected virtual void HandleDeath()
@@ -322,14 +322,14 @@ public abstract class Character : GameUnit
     protected IEnumerator DeathSequence(float waitTime = 1f)
     {
         ChangeAnim(Consts.ANIM_DEAD);
-        
+
         // Wait for death animation to complete
-        yield return new WaitUntil(() => 
-            animator.GetCurrentAnimatorStateInfo(0).IsName("Dead") && 
+        yield return new WaitUntil(() =>
+            animator.GetCurrentAnimatorStateInfo(0).IsName("Dead") &&
             animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1);
 
         yield return new WaitForSeconds(waitTime);
-        
+
         OnDespawn();
         SimplePool.Despawn(this);
     }

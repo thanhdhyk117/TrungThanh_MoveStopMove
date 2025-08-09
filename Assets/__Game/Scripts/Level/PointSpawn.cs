@@ -4,33 +4,41 @@ public class PointSpawn : MonoBehaviour
 {
     [SerializeField] private Level level;
     public bool isHaveCharacter = false;
+    private bool lastState = false;
+
+    private void Update()
+    {
+        if (isHaveCharacter != lastState)
+        {
+            if (isHaveCharacter)
+            {
+                level.RemovePoint(this);
+            }
+            else
+            {
+                level.AddPoint(this);
+            }
+
+            lastState = isHaveCharacter;
+        }
+    }
+
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other == null)
-        {
-            isHaveCharacter = false;
-            level.AddPoint(this);
-        }
-        else
+        if (other != null)
         {
             var character = Cache.GetCharacter(other);
             if (character != null)
             {
                 isHaveCharacter = true;
-
-                level.RemovePoint(this);
             }
         }
     }
 
-
     private void OnTriggerExit(Collider other)
     {
-        if (other == null)
-        {
-            isHaveCharacter = false;
-        }
-        else
+        if (other != null)
         {
             var character = Cache.GetCharacter(other);
             if (character != null)

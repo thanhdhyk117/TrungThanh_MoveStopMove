@@ -25,6 +25,8 @@ public abstract class Character : GameUnit
     [SerializeField] protected Character currentTarget => GetTarget();
     [SerializeField] private Character _previousTarget;
 
+    [Header("Physics")] [SerializeField] protected Rigidbody rb;
+    
     // State management
     private string _currentAnimTrigger = "";
     private Action<Character> OnCharacterTrigger;
@@ -310,6 +312,7 @@ public abstract class Character : GameUnit
         hideOnPlay?.ShowHideSymnol(false);
 
         HandleDeath();
+        OnCharacterTrigger?.Invoke(this);
         SimplePool.Despawn(this);
     }
 

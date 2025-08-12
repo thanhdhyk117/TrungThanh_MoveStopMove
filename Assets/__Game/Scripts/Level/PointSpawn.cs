@@ -3,48 +3,95 @@ using UnityEngine;
 public class PointSpawn : MonoBehaviour
 {
     [SerializeField] private Level level;
-    public bool isHaveCharacter = false;
-    private bool lastState = false;
+    private int occupants = 0;
+    private Bot currentBot;
 
-    private void Update()
+    public bool IsFree => occupants == 0;
+
+    // Gọi từ Level khi init (đảm bảo level != null)
+    public void Init(Level lvl)
     {
-        if (isHaveCharacter != lastState)
-        {
-            if (isHaveCharacter)
-            {
-                level.RemovePoint(this);
-            }
-            else
-            {
-                level.AddPoint(this);
-            }
-
-            lastState = isHaveCharacter;
-        }
+        level = lvl;
+        if (IsFree) level.AddPoint(this);   // khởi tạo là rảnh
     }
-
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other != null)
+        var bot = Cache.GetCharacter(other) as Bot;
+        if (bot == null) return;
+
+        if (occupants == 0)
         {
-            var character = Cache.GetCharacter(other);
-            if (character != null)
-            {
-                isHaveCharacter = true;
-            }
+            // lần đầu có occupant → point BUSY
+            level.RemovePoint(this);
+        }
+
+        occupants++;
+
+        // chỉ gắn currentBot nếu chưa có (1 bot/point)
+        if (currentBot == null)
+        {
+            AttachBot(bot);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other != null)
+        var bot = Cache.GetCharacter(other) as Bot;
+        if (bot == null) return;
+
+        occupants = Mathf.Max(0, occupants - 1);
+
+        if (currentBot == bot)
         {
-            var character = Cache.GetCharacter(other);
-            if (character != null)
-            {
-                isHaveCharacter = false;
-            }
+            DetachCurrentBot();
         }
+
+        if (occupants == 0)
+        {
+            // không còn ai đứng → point FREE
+            level.AddPoint(this);
+        }
+    }
+
+    // Khi despawn/disable mà không có OnTriggerExit → vẫn trả chỗ
+    private void OnBotDespawnedOrDisabled(Bot bot)
+    {
+        if (bot != currentBot) return;
+
+        occupants = 0;
+        DetachCurrentBot();
+        level.AddPoint(this); // trả về FREE
+    }
+
+    private void AttachBot(Bot bot)
+    {
+        if (currentBot == bot) return;
+
+        DetachCurrentBot();
+        currentBot = bot;
+        currentBot.BindSpawnPoint(this, level);
+
+        // ĐĂNG KÝ sự kiện từ Bot
+        currentBot.OnDespawned += OnBotDespawnedOrDisabled;
+        currentBot.OnDisabled  += OnBotDespawnedOrDisabled;
+    }
+
+    private void DetachCurrentBot()
+    {
+        if (currentBot != null)
+        {
+            currentBot.OnDespawned -= OnBotDespawnedOrDisabled;
+            currentBot.OnDisabled  -= OnBotDespawnedOrDisabled;
+            currentBot = null;
+        }
+    }
+
+    // Cho phép force từ Bot/Level
+    public void ForceRelease()
+    {
+        occupants = 0;
+        DetachCurrentBot();
+        level.AddPoint(this);
     }
 }

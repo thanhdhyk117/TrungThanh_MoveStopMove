@@ -13,10 +13,17 @@ public class Player : Character
         OnInit();
     }
 
+    [SerializeField] private float deadzone = 0.1f;   // ngưỡng joystick
+    [SerializeField] private float velocityForRun = 0.05f; // fallback bằng vận tốc thực
+
     protected override void HandleInput()
     {
-        Vector3 direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
-        bool hasInput = Input.GetMouseButton(0);
+        // Vector điều khiển từ joystick
+        Vector3 direction = Vector3.forward * variableJoystick.Vertical
+                            + Vector3.right   * variableJoystick.Horizontal;
+
+        // Có input nếu vượt deadzone
+        bool hasInput = direction.sqrMagnitude >= (deadzone * deadzone);
 
         if (hasInput)
         {
@@ -25,13 +32,21 @@ public class Player : Character
         else
         {
             _isMoving = false;
-            if (_currentState == EPlayerState.Moving)
+
+            float speedSq = characterController != null ? characterController.velocity.sqrMagnitude : rb != null  ? rb.velocity.sqrMagnitude : 0f;
+
+            if (speedSq >= velocityForRun * velocityForRun)
+            {
+                if (_currentState != EPlayerState.Moving)
+                    SetState(EPlayerState.Moving);
+            }
+            else if (_currentState == EPlayerState.Moving)
             {
                 SetState(EPlayerState.Idle);
             }
         }
 
-        // Update state based on target availability
+        // Reset state attack nếu mất target
         if (currentTarget == null && _currentState == EPlayerState.Attack)
         {
             _timeCounter.Stop();
@@ -41,25 +56,23 @@ public class Player : Character
 
     private void HandleMovement(Vector3 direction)
     {
-        if (direction.magnitude >= threshold)
+        if (direction.sqrMagnitude >= (threshold * threshold)) // dùng sqrMagnitude cho ổn định
         {
             _isMoving = true;
-            Movement(direction);
 
             if (_currentState != EPlayerState.Moving)
-            {
                 SetState(EPlayerState.Moving);
-            }
+
+            Movement(direction); // hàm di chuyển bạn đã có
         }
         else
         {
             _isMoving = false;
             if (_currentState == EPlayerState.Moving)
-            {
                 SetState(EPlayerState.Idle);
-            }
         }
     }
+
 
     protected override bool CanAttack()
     {

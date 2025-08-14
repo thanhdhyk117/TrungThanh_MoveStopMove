@@ -20,7 +20,7 @@ public class Player : Character
     {
         // Vector điều khiển từ joystick
         Vector3 direction = Vector3.forward * variableJoystick.Vertical
-                            + Vector3.right   * variableJoystick.Horizontal;
+                            + Vector3.right * variableJoystick.Horizontal;
 
         // Có input nếu vượt deadzone
         bool hasInput = direction.sqrMagnitude >= (deadzone * deadzone);
@@ -33,7 +33,9 @@ public class Player : Character
         {
             _isMoving = false;
 
-            float speedSq = characterController != null ? characterController.velocity.sqrMagnitude : rb != null  ? rb.velocity.sqrMagnitude : 0f;
+            // Add this field to the Player class
+
+            float speedSq = rb != null ? rb.velocity.sqrMagnitude : 0f;
 
             if (speedSq >= velocityForRun * velocityForRun)
             {

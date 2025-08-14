@@ -2239,6 +2239,7 @@ MonoBehaviour:
   listCharacterTarget: []
   targetType: 1
   _previousTarget: {fileID: 0}
+  rb: {fileID: 0}
   debugMode: 0
 --- !u!1 &1576564413
 GameObject:
@@ -2920,7 +2921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalBotCount: 50
-  botCountInTheGround: 10
+  botCountInTheGround: 16
   botPrefab: {fileID: 8354819941432355950, guid: fb4c98c64d1f9ae4186844e96768c373, type: 3}
   listPosSpawns:
   - {fileID: 213645479}
@@ -4340,7 +4341,7 @@ MonoBehaviour:
   owner: {fileID: 7615757645183254120}
   projectilePrefab: {fileID: 7511714686973406764, guid: 404a0960128aeae4783779600362564f, type: 3}
   TfMuzze: {fileID: 3664131874772687022}
-  skinWeapon: {fileID: 0}
+  skinWeapon: {fileID: 3881410883037733260}
   currentProjectile: {fileID: 7099892847476277545, guid: 8f46e7d705d4ef746ad0ea21a592a5df, type: 3}
 --- !u!1 &3565974868247366566
 GameObject:
@@ -6121,8 +6122,11 @@ MonoBehaviour:
   listCharacterTarget: []
   targetType: 1
   _previousTarget: {fileID: 0}
+  rb: {fileID: 7474111764026290613}
   debugMode: 1
   variableJoystick: {fileID: 1587979297}
+  deadzone: 0.1
+  velocityForRun: 0.05
 --- !u!4 &7714644599337616511
 Transform:
   m_ObjectHideFlags: 0

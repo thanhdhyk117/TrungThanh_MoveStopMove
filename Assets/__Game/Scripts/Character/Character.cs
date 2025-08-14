@@ -25,8 +25,8 @@ public abstract class Character : GameUnit
     [SerializeField] protected Character currentTarget => GetTarget();
     [SerializeField] private Character _previousTarget;
 
-    [Header("Physics")] [SerializeField] protected Rigidbody rb;
-    
+    [Header("Physics")][SerializeField] protected Rigidbody rb;
+
     // State management
     private string _currentAnimTrigger = "";
     private Action<Character> OnCharacterTrigger;
@@ -308,7 +308,6 @@ public abstract class Character : GameUnit
         _canAttack = false;
         _timeCounter?.Stop();
 
-        Debug.Log($"{name} is dead");
         hideOnPlay?.ShowHideSymnol(false);
 
         HandleDeath();

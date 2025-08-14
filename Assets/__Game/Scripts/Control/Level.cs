@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -97,7 +96,6 @@ public class Level : MonoBehaviour
 
         // YÊU CẦU bot tự xử lý trả chỗ + phát sự kiện
         bot.Despawn();
-
         bots.Remove(bot);
     }
 

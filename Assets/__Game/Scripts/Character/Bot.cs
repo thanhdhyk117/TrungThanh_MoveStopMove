@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using System;
+﻿using System;
 public class Bot : Character
 {
     private PointSpawn _point;
@@ -53,5 +52,13 @@ public class Bot : Character
     {
         _point?.ForceRelease();
         _point = null;
+    }
+
+
+    public override void OnDead()
+    {
+        base.OnDead();
+
+        _level?.DespawnBot(this);
     }
 }

@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4c6d727-65af-48c3-b67f-65ad89db2941" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrungThanh_MoveStopMove/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrungThanh_MoveStopMove/.idea/AndroidProjectSystem.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrungThanh_MoveStopMove/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrungThanh_MoveStopMove/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrungThanh_MoveStopMove/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vsconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Documentaion.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Documentaion.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/Example Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/Example Scene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/JoystickPlayerExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/JoystickPlayerExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/JoystickSetterExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/JoystickSetterExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/Player.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Examples/Player.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs/Dynamic Joystick.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs/Floating Joystick.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs/Floating Joystick.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs/Variable Joystick.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Prefabs/Variable Joystick.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base/Joystick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Base/Joystick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/DynamicJoystickEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/FloatingJoystickEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/JoystickEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Editor/VariableJoystickEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Plain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Ridged.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Ridged.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Arrow.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Arrow.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Cowboy.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Cowboy.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Crown.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Crown.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Ear.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Ear.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Hat.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Hat.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Hat_Cap.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Hat_Cap.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Hat_Yellow.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Hat_Yellow.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Horn.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Horn.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Rau.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Rau.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/headphone.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/headphone.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Batman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Batman.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Skull.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Skull.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/chambi (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/chambi (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/chambi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/chambi.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/comy (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/comy (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/comy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/comy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/dabao (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/dabao (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/dabao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/dabao.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/onion (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/onion (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/onion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/onion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/pokemon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/pokemon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/rainbow (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/rainbow (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/rainbow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/rainbow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/vantim (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/vantim (2).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/vantim.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/vantim.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/Icon_Devil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/Icon_Devil.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/quan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/quan.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/tail_devil.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/tail_devil.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/wing_devil.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/wing_devil.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/Icon_Angel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/Icon_Angel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/bow_angle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/bow_angle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/head_angle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/head_angle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/quan_angle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/quan_angle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/wing.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 2/wing.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 3/Icon_Witch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 3/Icon_Witch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 3/book_witch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 3/book_witch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 3/hat_witch.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 3/hat_witch.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Blade_Deadpool.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Blade_Deadpool.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Deadpood.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Deadpood.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Icon_DeadPood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Icon_DeadPood.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5/Hat_Thor.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5/Hat_Thor.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5/Icon_Thor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5/Icon_Thor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5/Thor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5/Thor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Shield.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Shield/Khien.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Shield/Khien.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Shield/Khien_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Shield/Khien_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Shield/Shield.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/CharSkin/Shield/Shield.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Character/Character_Optimieze2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Character/Character_Optimieze2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Character/Material.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Character/Material.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Character/Old.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Character/lambert1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Character/lambert1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Axe0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Axe0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Axe0_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Axe0_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Axe1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Axe1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Axe1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Axe1_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Boomerang_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Boomerang_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Boomerang_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Boomerang_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy0_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy0_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy0_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy0_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy2_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy2_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy2_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy2_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy4_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy4_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy4_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Candy4_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Hammer_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Hammer_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Hammer_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Hammer_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Knife_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Knife_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Knife_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Knife_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Uzi_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Uzi_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Uzi_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/Uzi_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/candy1_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/candy1_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/candy1_1.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/candy1_1.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/candy1_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/candy1_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/candy1_2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Skin/candy1_2.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Arrow.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Arrow.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.001 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.001 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.002 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.002 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe/Material.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe_0.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe_0.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Axe_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Boomerang.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Boomerang/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Boomerang/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.001 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.001 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.001 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.001 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.002 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.002 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.002 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.002 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.003 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.003 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.003 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.003 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Candy/Material.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Hammer.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Hammer.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Hammer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Hammer/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Hammer/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Hammer/Material.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Hammer/Material.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Knife.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Knife/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Knife/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Knife/Material.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Knife/Material.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.001 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.001 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.002 1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.002 1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Material.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Weapon.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Weapon.rar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Z.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/Z.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/boomerang.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/boomerang.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/candy_0.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/candy_0.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/candy_1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/candy_1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/candy_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/candy_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/candy_4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/candy_4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/knife.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/knife.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/uzi.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/3D/Weapon/uzi.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Ani_CharOptimize.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Ani_CharOptimize.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Ani_Zombie.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Ani_Zombie.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Ani_Zombie_Dog.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Ani_Zombie_Dog.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Ani_Zombie_Fat.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Ani_Zombie_Fat.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Animator_HandTut.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Animator/Animator_HandTut.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/But-ZobieCity_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/But-ZobieCity_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/But-ZobieCity_Home_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/But-ZobieCity_Home_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/But-Zombie_DayZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/But-Zombie_DayZ.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Fra-But_Offline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Fra-But_Offline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Frame#1_Rank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Frame#1_Rank.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Frame#2_Rank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Frame#2_Rank.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Frame-Play_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Frame-Play_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Mode_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Mode_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Shop_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Shop_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Skin_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Skin_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Time_PopMode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Time_PopMode.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Vib_Home 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Vib_Home 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Weapon_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico-Weapon_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#1_Rank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#1_Rank.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#2_Rank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#2_Rank.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#3_Rank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Ico_FraStar#3_Rank.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Img-Coin_Offline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Img-Coin_Offline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Img-Round_Offline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Img-Round_Offline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Rectangle-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Rectangle-11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/STOP-copy-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/STOP-copy-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Sound.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Sound.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/ico-Lock-50=SelectLVL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormMainMenu/ico-Lock-50=SelectLVL.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Arrow_Boss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Arrow_Boss.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Fra-Remain_GamePlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Fra-Remain_GamePlay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-AttackUp_Upgrade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-AttackUp_Upgrade.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Change_Ability.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Change_Ability.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Move_Upgrade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Move_Upgrade.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Pause_GamePlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Pause_GamePlay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Range_Upgrade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Range_Upgrade.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Shield_Upgrade.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Shield_Upgrade.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Icon_Zombie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Icon_Zombie.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Img-Tit_Ability.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Img-Tit_Ability.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Fra-Pause#1_GamePlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Fra-Pause#1_GamePlay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Frame-NamePlayer_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Frame-NamePlayer_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Icon_Hand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Icon_Hand.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Icon_Infinity.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Icon_Infinity.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Img-Set_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Img-Set_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Img-Tit_Setting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/Img-Tit_Setting.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/circle-outline3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/circle-outline3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/GamePlay/download.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Ico#7.3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Ico#7.3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Icon2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Icon2.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Img-Tittle_PopMode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Img-Tittle_PopMode.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-AttackBehind_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-AttackBehind_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-BladeCircle_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-BladeCircle_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-BulletPlus_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-BulletPlus_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-ChasingWeapon_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-ChasingWeapon_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Continuous_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Continuous_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-CrossAttack_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-CrossAttack_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Diagonal_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Diagonal_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-GOldMiner_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-GOldMiner_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-GrowingBullet_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-GrowingBullet_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-MoveFast_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-MoveFast_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Piercing_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Piercing_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Revive_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Revive_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-StartBigger_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-StartBigger_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-TripleArrow_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-TripleArrow_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-WallBreak_Ability.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-WallBreak_Ability.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#1_Loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#1_Loading.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#2_Loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#2_Loading.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#3_Loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#3_Loading.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Char#1_Loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Char#1_Loading.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Char#2_Loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Char#2_Loading.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Char#3_Loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/Img-Char#3_Loading.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/MOVE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Loading/MOVE.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Frame-ChooseSkin_Skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Frame-ChooseSkin_Skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Frame-Equi_Skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Frame-Equi_Skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Frame-Skin#1_Skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Frame-Skin#1_Skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Arm_Skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Arm_Skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Horn_Skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Horn_Skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Lock_Skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Lock_Skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Shorts_Skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Icon-Shorts_Skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Img-Skin_Shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_CharSkin/Img-Skin_Shop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic/Frame-Class_TimeOut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic/Frame-Class_TimeOut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic/Img-Tittle_TimeOut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic/Img-Tittle_TimeOut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic/Untitled-1_0003_Shape-11-copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Classic/Untitled-1_0003_Shape-11-copy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Fra-Process#1_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Fra-Process#1_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Fra-Process#2_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Fra-Process#2_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Fra-Process#3_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Fra-Process#3_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Frame-Time_GamePlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Frame-Time_GamePlay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-City_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-City_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Kitchen_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Kitchen_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Lock_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Lock_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Stadium_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Stadium_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Table_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Table_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Tick_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Tick_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Unlock_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Unlock_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Video_TimeOut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Ico-Video_TimeOut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Img-Lock_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Img-Lock_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Img-map_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Img-map_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Lose.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Lose.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Lose2.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Lose2.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Victory.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Victory.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Victory2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Victory2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Boss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Boss.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Boss1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Boss1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Checkin_Survival.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Checkin_Survival.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/face.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Offer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Offer/Fra-Range_Offer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Offer/Fra-Range_Offer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Offer/Img-Light_Offer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Offer/Img-Light_Offer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Offer/Img-Tit_Offer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Offer/Img-Tit_Offer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Pause.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Pause/But-Off_Pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Pause/But-Off_Pause.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Pause/But-Onf_Pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Pause/But-Onf_Pause.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Pause/Img-Tittle_Pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Pause/Img-Tittle_Pause.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Rate.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Rate/Ico-Star2_Rate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Rate/Ico-Star2_Rate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Rate/Ico-Star_Rate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Rate/Ico-Star_Rate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Rate/Img-Title_Rate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Rate/Img-Title_Rate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Revive.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Revive/Group-1611.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Revive/Group-1611.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Revive/Shape-63-copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Revive/Shape-63-copy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Frame-#2_Shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Frame-#2_Shop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Frame-#3_Shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Frame-#3_Shop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Frame-But#03_Skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Frame-But#03_Skin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Frame-Cost_Shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Frame-Cost_Shop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Img-NoAds_Shop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Shop/Img-NoAds_Shop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Weapon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Weapon/Rounded-Rectangle-13-copy-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Weapon/Rounded-Rectangle-13-copy-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Weapon/but-NextSkin_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Popup_Weapon/but-NextSkin_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share/But-Share_Social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share/But-Share_Social.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share/Capture Shot.renderTexture" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share/Capture Shot.renderTexture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share/Ico-Camera_Social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share/Ico-Camera_Social.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share/Img-Frame_SocialSharing-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/Share/Img-Frame_SocialSharing-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_NoUse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/ArrowTut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/ArrowTut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-ADS#1_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-ADS#1_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Class_GamePlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Class_GamePlay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-DoubleReward#1_TimeOut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-DoubleReward#1_TimeOut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-DoubleReward#2_TimeOut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-DoubleReward#2_TimeOut.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Home2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Home2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Off.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Off_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Off_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame_PopMode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Frame_PopMode.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Gold.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Ico-ADS_Home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Ico-ADS_Home.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Ico-Player_GamePlay.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Ico-Player_GamePlay.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Ico-Vib_Home 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Ico-Vib_Home 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Icon_Arrow 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Icon_Arrow 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Icon_Tip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Icon_Tip.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Move.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Move.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/ScreenShot_20201019092053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/ScreenShot_20201019092053.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Sound2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Sound2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/Stop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle-outline-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle-outline-big.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle_Sliced.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle_Sliced.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle_Sliced2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/circle_Sliced2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/core_Offer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/core_Offer.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/object_shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/GUI/_Other/object_shadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Layers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Layers.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/SM_Cup_01.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/SM_Cup_01.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/SM_Table_02_2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/SM_Table_02_2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Button Click.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Button Click.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Button Click2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Button Click2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Chet.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Chet.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Count 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Count 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Count 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Count 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Count 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Count 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Fix 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Fix 2/Chet 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Fix 2/Chet 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Fix 2/Nem vui khi.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Fix 2/Nem vui khi.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Lose.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Lose.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Nem vu khi.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Nem vu khi.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/btn_click.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/btn_click.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/count_down.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/count_down.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/count_down2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/count_down2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/count_down_end.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/count_down_end.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead10.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead10.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead11.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead11.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead12.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead12.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead13.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead13.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead14.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead14.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead15.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead15.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead16.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead16.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead17.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead17.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead7.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead8.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead9.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead9.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/man.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/man/stickman_dead.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/man/stickman_dead.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/man/stickman_dead2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/man/stickman_dead2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/man/stickman_dead4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/dead/man/stickman_dead4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/end_win.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/end_win.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/size_up5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit5.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit5.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit6.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit6.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit7.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit7.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit8.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit8.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_throw.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_throw.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_throw2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/New 1/weapon_throw2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Size up 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Size up 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Size up.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Size up.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Victory.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Victory.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Vu khi va cham.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/Vu khi va cham.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 1.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 2.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Die.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Die.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 2 fix.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 2 fix.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 3 fix.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 3 fix.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 4 fix.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 4 fix.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Vu khi va cham 3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Vu khi va cham 3.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Vu khi va cham 4.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Vu khi va cham 4.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Vu khi va cham 5.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/fix/Vu khi va cham 5.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/stickman_die.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Import/Internship_BT4_MoveStopMove/Sound/stickman_die.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Animation/Weapon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Animation/Weapon/Rotate.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Animation/Weapon/Rotate.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Animation/Weapon/candy_0.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Animation/Weapon/candy_0.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay/AttackRange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay/AttackRange.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay/AttackRangeBot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay/AttackRangeBot.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay/Ground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay/Ground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay/Point.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Materials/GamePlay/Point.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs/Control.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs/Control/Bot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs/Control/Bot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs/Weapon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs/Weapon/Candy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs/Weapon/Candy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs/Weapon/candy_0.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Prefabs/Weapon/candy_0.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scenes/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scenes/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/AttackRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/AttackRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/Bot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/Bot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/Character.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/Character.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/HideOnPlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/HideOnPlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Character/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Consts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Consts/Consts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Consts/Consts.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Control.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Control/CameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Control/CameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Control/Level.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Control/Level.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Control/TimeCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Control/TimeCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Level.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Level/PointSpawn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Level/PointSpawn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon/IProjectileMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon/IProjectileMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon/Projectile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon/Projectile.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon/TowardsMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon/TowardsMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon/Weapon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/Scripts/Weapon/Weapon.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/_Singleton.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/_Singleton/Singleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Game/_Singleton/Singleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Cache.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Cache/Cache.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Cache/Cache.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/GameUnit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/GameUnit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/MiniPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/MiniPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/ParticlePool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/ParticlePool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/PoolControler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/PoolControler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/SimplePool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/__Pool/Scripts/SimplePool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thanhdhyk117&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thanhdhyk117/TrungThanh_MoveStopMove.git&quot;,
+    &quot;accountId&quot;: &quot;8a1b1a7d-de84-439d-9bfb-8ec859eec5ec&quot;
+  }
+}</component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="31VOCBRw5yl6E5gHPS0Qx5C30GK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath F:\Learn\LearnUnity\HBLearn\TrungThanh_MoveStopMove -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="F:\Learn\LearnUnity\HBLearn\TrungThanh_MoveStopMove" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.43f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath F:\Learn\LearnUnity\HBLearn\TrungThanh_MoveStopMove -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="F:\Learn\LearnUnity\HBLearn\TrungThanh_MoveStopMove" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Device" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4c6d727-65af-48c3-b67f-65ad89db2941" name="Changes" comment="" />
+      <created>1755605644086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755605644086</updated>
+      <workItem from="1755605648325" duration="1036000" />
+      <workItem from="1755949217434" duration="119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

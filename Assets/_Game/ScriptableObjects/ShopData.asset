@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdab717ecb30074a868ffb194c47024, type: 3}
+  m_Name: ShopData
+  m_EditorClassIdentifier: 
+  hats:
+    ts:
+    - icon: {fileID: 21300000, guid: 2f8937590677b044b8619858abca9ecf, type: 3}
+      cost: 10
+      ads: 2
+      type: 32
+    - icon: {fileID: 21300000, guid: 16a71104cd40fbd408c2919484df4cd7, type: 3}
+      cost: 0
+      ads: 0
+      type: 33
+    - icon: {fileID: 21300000, guid: 7ecc7cd28cb66fb41ac2e56ca5e22d5c, type: 3}
+      cost: 0
+      ads: 0
+      type: 34
+    - icon: {fileID: 21300000, guid: a50fa6b5fea3d264cbec440c2da1dbf8, type: 3}
+      cost: 0
+      ads: 0
+      type: 35
+    - icon: {fileID: 21300000, guid: 5dd6afb8b1bc7b947853e77fc8811be4, type: 3}
+      cost: 0
+      ads: 0
+      type: 36
+    - icon: {fileID: 21300000, guid: 69fc10e773b5a814198a5883e168c2b7, type: 3}
+      cost: 0
+      ads: 0
+      type: 37
+    - icon: {fileID: 21300000, guid: 694f596b7929bdb409ba3630631783d9, type: 3}
+      cost: 0
+      ads: 0
+      type: 38
+    - icon: {fileID: 21300000, guid: c72f60a9ff619e54ea03f81d8477c714, type: 3}
+      cost: 0
+      ads: 0
+      type: 39
+    - icon: {fileID: 21300000, guid: 76e934370403f35428e37cc379bed4c7, type: 3}
+      cost: 0
+      ads: 0
+      type: 40
+    - icon: {fileID: 21300000, guid: 0721f07e295ea594ba265006fe888315, type: 3}
+      cost: 0
+      ads: 0
+      type: 41
+  pants:
+    ts:
+    - icon: {fileID: 21300000, guid: 0806d2ad9e543b64dab8a6583c3b2039, type: 3}
+      cost: 10
+      ads: 1
+      type: 0
+    - icon: {fileID: 21300000, guid: 6d8c21d8e55123441ba02ac0fce3d675, type: 3}
+      cost: 11
+      ads: 1
+      type: 1
+    - icon: {fileID: 21300000, guid: 16a96fb5954afd84abacd4acf0818139, type: 3}
+      cost: 12
+      ads: 1
+      type: 2
+    - icon: {fileID: 21300000, guid: bf6c3011d09de5645b20958b4178cdf7, type: 3}
+      cost: 13
+      ads: 1
+      type: 3
+    - icon: {fileID: 21300000, guid: be770e2a4bda55147bff7cac14cb8b34, type: 3}
+      cost: 14
+      ads: 1
+      type: 4
+    - icon: {fileID: 21300000, guid: a482b056a7db15c449864b0f6737a4cb, type: 3}
+      cost: 15
+      ads: 1
+      type: 5
+    - icon: {fileID: 21300000, guid: 17737506398ad284aa00a46f0508ac61, type: 3}
+      cost: 16
+      ads: 1
+      type: 6
+    - icon: {fileID: 21300000, guid: 25eaab120aefcd243b5c20ed406b1184, type: 3}
+      cost: 17
+      ads: 1
+      type: 7
+    - icon: {fileID: 21300000, guid: ce130da2d9627654994c26c5c9da1967, type: 3}
+      cost: 18
+      ads: 1
+      type: 8
+  accessories:
+    ts:
+    - icon: {fileID: 21300000, guid: 747d642799c526143b4b58d8bb495bc4, type: 3}
+      cost: 3
+      ads: 0
+      type: 42
+    - icon: {fileID: 21300000, guid: a66d4c558c1448f44a9eff655827912f, type: 3}
+      cost: 12
+      ads: 2
+      type: 43
+  skins:
+    ts:
+    - icon: {fileID: 21300000, guid: a3b9bb207ec63f445ba3a939ed5b18d0, type: 3}
+      cost: 0
+      ads: 0
+      type: 26
+    - icon: {fileID: 21300000, guid: 591bf6bd34c3a3c4e9143ba55a6c7d7b, type: 3}
+      cost: 3
+      ads: 0
+      type: 27
+    - icon: {fileID: 21300000, guid: 9f8e6f5ea0f849447b464193072ab6f3, type: 3}
+      cost: 2
+      ads: 0
+      type: 28
+    - icon: {fileID: 21300000, guid: 916eb971e2dc28b419a242fa6950df78, type: 3}
+      cost: 12
+      ads: 0
+      type: 29
+    - icon: {fileID: 21300000, guid: 7965f490c2ec6044d854d957fe85186e, type: 3}
+      cost: 4
+      ads: 0
+      type: 30
+    - icon: {fileID: 21300000, guid: 0363a7557b133774f99bf84dcf6fcbed, type: 3}
+      cost: 2
+      ads: 0
+      type: 31
